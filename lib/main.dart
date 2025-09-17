@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pageview/pageview_different_pages.dart';
+import 'package:pageview/page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,6 +11,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Scaffold(body: PageViewDifferentPages()));
+    return MaterialApp(home: Scaffold(body: Pagee()));
   }
 }
